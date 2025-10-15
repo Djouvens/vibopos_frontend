@@ -1,11 +1,14 @@
 import './App.css'
-import { Button } from './components/ui/button'
+import CustomerLookup from './pages/cashier/CustomerManagement/CustomerLookup'
+import ShiftSummary from './pages/cashier/ShiftReport/ShiftSummary'
 
 function App() {
   
   return (
     <>
-     <Button> vibopos system</Button>
+    {/** <CreateOrder/> */}
+    { /*<CustomerLookup/> */}
+    <ShiftSummary/>
     </>
   )
 }
